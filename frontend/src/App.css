@@ -1,0 +1,138 @@
+/* App.css */
+
+/* General Styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input-text {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.submit-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Radio Button Styles */
+.radio-group {
+  margin-bottom: 16px;
+}
+
+.radio-label {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+/* Additional Configs */
+.configs-container {
+  margin-bottom: 16px;
+}
+
+.config-item {
+  margin-bottom: 8px;
+}
+
+/* Distance and Time Form */
+.distance-time-form {
+  margin-bottom: 16px;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  margin-top: 8px;
+}
+
+/* App Specific Styling */
+.container {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  color: #333;
+}
+
+.form-group {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  font-weight: bold;
+  color: #555;
+}
+
+.input-text {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.configs-container {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.config-item {
+  background-color: #f9f9f9;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.distance-time-form {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  font-size: 14px;
+}
