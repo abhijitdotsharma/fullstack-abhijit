@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const pricingSchema = new Schema({
     distanceBasePrice: {
-        type: Number,
+        type: Array,
         required: true
     },
     distanceAdditionalPrice: {
@@ -11,7 +11,7 @@ const pricingSchema = new Schema({
         required: true
     },
     timeMultiplierFactor: {
-        type: Number,
+        type: Array,
         required: true
     }
 });
